@@ -74,9 +74,9 @@ inquirer
             default:
                 throw new Error(`Invalid shape: ${answers.shape}`);
         }
-    const svg = shape.toSVG(answers.text, answers.textColor);
-    fs.writeFileSync('examples/logo.svg', svg);
-    console.log('Successfully generated logo.svg!');
+        const svg = shape.toSVG(answers.text, answers.textColor);
+        fs.writeFileSync('examples/${answers.shape}.svg', svg);
+        console.log('Successfully generated ${answers.shape}.svg in the examples folder!');
     })
     .catch((error) => {
         console.error(error);
