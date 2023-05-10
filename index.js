@@ -59,6 +59,25 @@ inquirer
             },
         },
     ])
+    .then((answers) => {
+        let shape;
+        switch (answers.shape) {
+            case 'circle':
+                shape = new Circle(answers.shapeColor);
+                break;
+            case 'triangle':
+                shape = new Triangle(answers.shapeColor);
+                break;
+            case 'square':
+                shape = new Square(answers.shapeColor);
+                break;
+            default:
+                throw new Error(`Invalid shape: ${answers.shape}`);
+        }
+    const svg = shape.toSVG(answers.text, answers.textColor);
+    fs.writeFileSync('examples/logo.svg', svg);
+    console.log('Successfully generated logo.svg!');
+    })
     .catch((error) => {
         console.error(error);
     });
