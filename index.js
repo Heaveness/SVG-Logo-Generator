@@ -23,7 +23,7 @@ inquirer
         {
             type: 'input',
             name: 'textColor',
-            message: 'Enter the text color (color keyword or hexadecimal number):',
+            message: 'Enter the text color (color keyword or [#]hexadecimal number):',
             validate: (input) => {
                 const validLength = input.length > 0;
                 const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$|^([a-z]+)$/i.test(input);
@@ -45,7 +45,7 @@ inquirer
         {
             type: 'input',
             name: 'shapeColor',
-            message: 'Enter the shape color (color keyword or hexadecimal number):',
+            message: 'Enter the shape color (color keyword or [#]hexadecimal number):',
             validate: (input) => {
                 const validLength = input.length > 0;
                 const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$|^([a-z]+)$/i.test(input);
@@ -75,8 +75,8 @@ inquirer
                 throw new Error(`Invalid shape: ${answers.shape}`);
         }
         const svg = shape.toSVG(answers.text, answers.textColor);
-        fs.writeFileSync('examples/${answers.shape}.svg', svg);
-        console.log('Successfully generated ${answers.shape}.svg in the examples folder!');
+        fs.writeFileSync(`examples/${answers.shape}.svg`, svg);
+        console.log(`Successfully generated ${answers.shape}.svg in the examples folder!`);
     })
     .catch((error) => {
         console.error(error);
