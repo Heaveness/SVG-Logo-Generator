@@ -26,7 +26,7 @@ inquirer
             message: 'Enter the text color (color keyword or hexadecimal number):',
             validate: (input) => {
                 const validLength = input.length > 0;
-                const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$/.test(input);
+                const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$|^([a-z]+)$/i.test(input);
                 if (!validLength) {
                   return 'Empty inputs are not allowed, please try again.';
                 }
@@ -48,7 +48,7 @@ inquirer
             message: 'Enter the shape color (color keyword or hexadecimal number):',
             validate: (input) => {
                 const validLength = input.length > 0;
-                const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$/.test(input);
+                const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$|^([a-z]+)$/i.test(input);
                 if (!validLength) {
                   return 'Empty inputs are not allowed, please try again.';
                 }
