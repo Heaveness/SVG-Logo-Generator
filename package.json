@@ -1,0 +1,30 @@
+{
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "A easy-to-use code to initiate a svg logo generator to create a logo for you in different shapes, color, text, and more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heaveness/SVG-Logo-Generator.git"
+  },
+  "keywords": [
+    "svg",
+    "logo",
+    "generator"
+  ],
+  "author": "Heaveness (Jung In Kim)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Heaveness/SVG-Logo-Generator/issues"
+  },
+  "homepage": "https://github.com/Heaveness/SVG-Logo-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
