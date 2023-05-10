@@ -22,8 +22,8 @@ inquirer
         },
         {
             type: 'input',
-            name: 'textColor',
-            message: 'Enter the text color (color keyword or [#]hexadecimal number):',
+            name: 'textColour',
+            message: 'Enter the text colour (colour keyword or [#]hexadecimal number):',
             validate: (input) => {
                 const validLength = input.length > 0;
                 const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$|^([a-z]+)$/i.test(input);
@@ -31,7 +31,7 @@ inquirer
                   return 'Empty inputs are not allowed, please try again.';
                 }
                 if (!validColor) {
-                  return 'Please enter a valid color keyword or hexadecimal number.';
+                  return 'Please enter a valid colour keyword or hexadecimal number.';
                 }
                 return true;
             },
@@ -44,8 +44,8 @@ inquirer
         },
         {
             type: 'input',
-            name: 'shapeColor',
-            message: 'Enter the shape color (color keyword or [#]hexadecimal number):',
+            name: 'shapeColour',
+            message: 'Enter the shape colour (colour keyword or [#]hexadecimal number):',
             validate: (input) => {
                 const validLength = input.length > 0;
                 const validColor = /^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$|^([a-z]+)$/i.test(input);
@@ -53,7 +53,7 @@ inquirer
                   return 'Empty inputs are not allowed, please try again.';
                 }
                 if (!validColor) {
-                  return 'Please enter a valid color keyword or hexadecimal number.';
+                  return 'Please enter a valid colour keyword or hexadecimal number.';
                 }
                 return true;
             },
@@ -63,18 +63,18 @@ inquirer
         let shape;
         switch (answers.shape) {
             case 'circle':
-                shape = new Circle(answers.shapeColor);
+                shape = new Circle(answers.shapeColour);
                 break;
             case 'triangle':
-                shape = new Triangle(answers.shapeColor);
+                shape = new Triangle(answers.shapeColour);
                 break;
             case 'square':
-                shape = new Square(answers.shapeColor);
+                shape = new Square(answers.shapeColour);
                 break;
             default:
                 throw new Error(`Invalid shape: ${answers.shape}`);
         }
-        const svg = shape.toSVG(answers.text, answers.textColor);
+        const svg = shape.toSVG(answers.text, answers.textColour);
         fs.writeFileSync(`examples/${answers.shape}.svg`, svg);
         console.log(`Successfully generated ${answers.shape}.svg in the examples folder!`);
     })
