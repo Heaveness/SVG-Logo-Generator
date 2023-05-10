@@ -4,8 +4,7 @@
   "description": "A easy-to-use code to initiate a svg logo generator to create a logo for you in different shapes, color, text, and more!",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
-    "jest": "jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
