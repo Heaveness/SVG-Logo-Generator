@@ -18,13 +18,15 @@ Once you have chosen your desired features, the code will generate an SVG file u
 - [License](#license)
 - [Contributing](#contribution)
 - [Tests](#tests)
-- [Walkthrough](#walkthrough)
+- [Links](#links)
+- [Previews](#previews)
+- [Credits](#credits)
 - [Questions](#questions)
   
 ## Installation
 Follow these instructions: <br>
 1. Git clone this repository. <br>
-2. Install ![Node](https://nodejs.org/en). <br>
+2. Install [Node](https://nodejs.org/en). <br>
 3. Use any git terminal like Git Bash or Visual Studio Code.
   
 ## Usage
@@ -42,8 +44,23 @@ Use either of these commands to test: <br>
 or <br>
 2. Testing: jest test <br>
 
-## Walkthrough
-Walkthrough video link: ![Coming Soon!]() <br>
+## Links
+**Walkthrough:** [Link to the walkthrough video!](https://drive.google.com/file/d/1MvJ8kVKQY0GM9gqWJYKKH8jaoDkvYGYU/view) <br>
+**Github Repo:** [Link to Github repository!](https://github.com/Heaveness/README-generator) <br>
+
+## Previews
+**Terminal:** <br>
+![Terminal Preview Image 1](assets/images/Terminal-Preview-1.png) <br>
+<br>
+
+**Results:**
+![Terminal Preview Image 2](assets/images/Terminal-Preview-2.png) <br>
+
+## Credits
+**Websites:** W3schools, stackoverflow, & reddit <br>
+**Instructor(s):** Ali Maqsood, Daler Singh <br>
+**Assistant Instructor(s):** Shihan, Adam, Krishna, & Tareque Moatar <br>
+**Institution:** University of Toronto <br>
 
 ## Questions
 If you have any questions regarding the repo, please contact me at vindictuslbp@gmail.com. Or check with me through my Github profile: ![Heaveness](https://github.com/Heaveness).
