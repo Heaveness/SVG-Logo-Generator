@@ -45,7 +45,7 @@ or <br>
 2. Testing: jest test <br>
 
 ## Links
-**Walkthrough:** [Link to the walkthrough video!](https://drive.google.com/file/d/1MvJ8kVKQY0GM9gqWJYKKH8jaoDkvYGYU/view) <br>
+**Walkthrough:** [Link to the walkthrough video!](https://drive.google.com/file/d/1I41Uhx6Qu_3yGIYgeDJkfVGyIPdYViXu/view) <br>
 **Github Repo:** [Link to Github repository!](https://github.com/Heaveness/README-generator) <br>
 
 ## Previews
