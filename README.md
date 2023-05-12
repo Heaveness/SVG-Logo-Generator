@@ -63,4 +63,4 @@ or <br>
 **Institution:** University of Toronto <br>
 
 ## Questions
-If you have any questions regarding the repo, please contact me at vindictuslbp@gmail.com. Or check with me through my Github profile: ![Heaveness](https://github.com/Heaveness).
+If you have any questions regarding the repo, please contact me at vindictuslbp@gmail.com. Or check with me through my Github profile: [Heaveness](https://github.com/Heaveness).
