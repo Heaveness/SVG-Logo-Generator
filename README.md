@@ -46,7 +46,7 @@ or <br>
 
 ## Links
 **Walkthrough:** [Link to the walkthrough video!](https://drive.google.com/file/d/1I41Uhx6Qu_3yGIYgeDJkfVGyIPdYViXu/view) <br>
-**Github Repo:** [Link to Github repository!](https://github.com/Heaveness/README-generator) <br>
+**Github Repo:** [Link to Github repository!](https://github.com/Heaveness/SVG-Logo-Generator) <br>
 
 ## Previews
 **Terminal:** <br>
