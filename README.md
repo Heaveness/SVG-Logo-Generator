@@ -53,7 +53,7 @@ or <br>
 ![Terminal Preview Image 1](assets/images/Terminal-Preview-1.png) <br>
 <br>
 
-**Results:**
+**Results:** <br>
 ![Terminal Preview Image 2](assets/images/Terminal-Preview-2.png) <br>
 
 ## Credits
