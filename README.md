@@ -27,7 +27,9 @@ Once you have chosen your desired features, the code will generate an SVG file u
 Follow these instructions: <br>
 1. Git clone this repository. <br>
 2. Install [Node](https://nodejs.org/en). <br>
-3. Use any git terminal like Git Bash or Visual Studio Code.
+3. Install inquirer v8.2.4. Command line: npm i inquirer@8.2.4 <br>
+4. Install Jest locally or globally. Local: npm install --save-dev jest | Global: npm install jest -g <br>
+5. Use any git terminal like Git Bash or Visual Studio Code. <br>
   
 ## Usage
 For generating a SVG logo file using node modules based on user inputs during prompts. 
